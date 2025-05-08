@@ -237,7 +237,7 @@
 
     .servicesList li {
         padding: 8px 15px;
-        font-size: 20px;
+        font-size: 16px;
         margin-bottom: 0;
     }
 
@@ -317,7 +317,7 @@
 
     .project-cardmain {
         height: auto;
-        padding: 20px 20px 20px 30px;
+        padding: 20px 15px 20px 30px;
         gap: 10px;
     }
 
@@ -394,7 +394,7 @@
     }
 
     .testimonial-card-content {
-        padding: 20px 0 0;
+        padding: 30px 0 0;
     }
 
     .testimonial-clientName-Txt {
@@ -1091,7 +1091,7 @@
 
     .servicesList li {
         margin-bottom: 30px;
-        font-size: 20px;
+        font-size: 16px;
         padding: 10px 15px;
     }
 
@@ -1116,7 +1116,7 @@
     }
 
     .project-cardmain {
-        padding: 34px 32px 34px 60px;
+        padding: 34px 15px 34px 60px;
     }
 
     .project-cardmain-heading {
@@ -1241,12 +1241,12 @@
     }
 
     .servicesList li {
-        font-size: 20px;
+        font-size: 18px;
         padding: 15px 30px;
     }
 
     .servicesList .servicesList-count {
-        margin-right: 20px;
+        margin-right: 15px;
     }
 
     .project-cardmain-heading {
@@ -1342,12 +1342,12 @@
     }
 
     .servicesList li {
-        font-size: 25px;
+        font-size: 22px;
         padding: 15px 30px;
     }
 
     .servicesList .servicesList-count {
-        margin-right: 25px;
+        margin-right: 20px;
     }
 
     .project-cardmain-heading {

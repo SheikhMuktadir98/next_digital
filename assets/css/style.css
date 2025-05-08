@@ -139,6 +139,7 @@ button:focus {
     font-size: 20px;
     border-radius: 300px;
     gap: 10px;
+    letter-spacing: 0.5px;
     overflow: hidden;
     height: 160px;
     font-family: "Inter", sans-serif;
@@ -163,13 +164,17 @@ button:focus {
 .mainbtn-cicleBox:hover {
     -webkit-transform: rotate(-0deg);
     -ms-transform: rotate(-0deg);
+    border: 2px solid var(--main-color);
     transform: rotate(-0deg);
-    color: var(--nav-color);
+    color: var(--text-dark);
     -webkit-transition: all 0.2s linear;
     -moz-transition: all 0.2s linear;
     -o-transition: all 0.2s linear;
     transition: all 0.2s linear;
     position: relative;
+    box-shadow: #ddf1479e 0px 7px 29px 0px;
+    -webkit-transform: scale(1.05, 1.05);
+    transform: scale(1.05, 1.05);
 }
 
 .mainbtn-cicleBox::before {
@@ -179,7 +184,7 @@ button:focus {
     height: 20px;
     bottom: 0;
     left: 20px;
-    background-color: var(--link-color);
+    background-color: var(--main-color);
     border-radius: 300px;
     -webkit-transition: all 0.2s linear;
     -moz-transition: all 0.2s linear;
@@ -234,6 +239,15 @@ button:focus {
     -moz-transition: all 0.2s linear;
     -o-transition: all 0.2s linear;
     transition: all 0.2s linear;
+}
+
+.main-Boxbtn-outer:hover {
+    box-shadow: #ddf1479e 0px 7px 29px 0px;
+    -webkit-transform: scale(1.05, 1.05);
+    transform: scale(1.05, 1.05);
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
 }
 
 .main-Boxbtn-outer:focus {
@@ -364,6 +378,7 @@ button:focus {
     font-family: "DM Sans", sans-serif;
     font-weight: 500;
     position: relative;
+    letter-spacing: 2px;
     line-height: 1;
     color: var(--text-color);
 }
@@ -371,6 +386,7 @@ button:focus {
 .topTxt-heading {
     position: relative;
     margin-bottom: 10px;
+    letter-spacing: 2px;
     padding-left: 220px;
     font-size: 20px;
     font-family: "Inter", sans-serif;
@@ -837,6 +853,7 @@ body.noscroll {
     flex-direction: column;
     gap: 40px;
     left: 0;
+    letter-spacing: 2px;
     margin: 0;
     padding: 0;
 }
@@ -878,6 +895,7 @@ body.noscroll {
     line-height: 1;
     font-family: "Inter", sans-serif;
     font-weight: 400;
+    letter-spacing: 0.5px;
     color: var(--para-color);
     position: relative;
 }
@@ -1026,6 +1044,7 @@ body.noscroll {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
+    letter-spacing: 2px;
     -ms-flex-align: center;
     align-items: center;
     color: var(--text-color);
@@ -1047,6 +1066,7 @@ body.noscroll {
 
 .testslider-Txt2 {
     position: relative;
+    letter-spacing: 2px;
     font-size: 30px;
     color: var(--text-dark);
     font-family: "DM Sans", sans-serif;
@@ -1130,6 +1150,7 @@ body.noscroll {
     margin-bottom: 30px;
     display: -webkit-box;
     display: -ms-flexbox;
+    letter-spacing: 1px;
     display: flex;
     background-color: rgba(255, 255, 255, 6%);
     -webkit-backdrop-filter: blur(15px);
@@ -1147,7 +1168,7 @@ body.noscroll {
 .servicesList .servicesList-count {
     font-family: "Inter", sans-serif;
     font-size: 20px;
-    margin-right: 30px;
+    margin-right: 20px;
     font-weight: 800;
     width: 60px;
     height: 60px;
@@ -1194,18 +1215,18 @@ body.noscroll {
     background-color: var(--main-color);
     color: var(--text-dark);
     z-index: 200;
-    -webkit-transform: scale(1.06) rotate(5deg);
-    -ms-transform: scale(1.06) rotate(5deg);
-    transform: scale(1.06) rotate(5deg);
+    -webkit-transform: scale(1.1) rotate(5deg);
+    -ms-transform: scale(1.1) rotate(5deg);
+    transform: scale(1.1) rotate(5deg);
 }
 
 .servicesList li.tab:nth-child(odd).active {
     background-color: var(--main-color);
     color: var(--text-dark);
     z-index: 200;
-    -webkit-transform: scale(1.06) rotate(-5deg);
-    -ms-transform: scale(1.06) rotate(-5deg);
-    transform: scale(1.06) rotate(-5deg);
+    -webkit-transform: scale(1.1) rotate(-5deg);
+    -ms-transform: scale(1.1) rotate(-5deg);
+    transform: scale(1.1) rotate(-5deg);
 }
 
 .servicesList .tab.active .servicesList-count {
@@ -1318,8 +1339,8 @@ body.noscroll {
     transition: all 0.2s ease-out;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
-    -webkit-transform: scale(1, 1);
-    transform: scale(1, 1);
+    -webkit-transform: scale(0.9, 0.9);
+    transform: scale(0.9, 0.9);
 }
 
 .team-card:hover .team-card-headerImg {
@@ -1332,8 +1353,8 @@ body.noscroll {
 
 .team-card-body {
     position: relative;
-    width: 250px;
-    height: 250px;
+    width: 260px;
+    height: 260px;
     border-radius: 300px;
     -webkit-border-radius: 300px;
     -moz-border-radius: 300px;
@@ -1379,6 +1400,7 @@ body.noscroll {
     font-weight: 600;
     font-size: 30px;
     line-height: 1;
+    letter-spacing: 2px;
     margin: 0;
     text-align: center;
 }
@@ -1388,8 +1410,9 @@ body.noscroll {
     position: relative;
     color: var(--text-dark);
     text-align: center;
-    padding: 15px 0 5px;
+    padding: 15px 0 10px;
     line-height: 1;
+    letter-spacing: 1px;
     font-weight: 500;
     font-family: "Inter", sans-serif;
 }
@@ -1433,6 +1456,14 @@ body.noscroll {
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
+}
+
+.team-section .owl-item.center .team-card-headerImg {
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
 }
 
 /* ********************************    Team End      ************************************** */
@@ -1550,7 +1581,7 @@ body.noscroll {
     -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
     line-height: 1.6;
-    max-height: calc(1.5em * 4);
+    /* max-height: calc(1.5em * 4); */
 }
 
 .testimonial-card.testimonial-card-clr .testimonial-card-content-TXT {
@@ -1568,8 +1599,16 @@ body.noscroll {
     font-size: 30px;
     font-family: "Inter", sans-serif;
     font-weight: 600;
+    letter-spacing: 2px;
     position: relative;
     color: var(--text-color);
+}
+
+.testimonial-clientName-Txt span {
+    font-size: 14px !important;
+    letter-spacing: 0.5px !important;
+    line-height: 1;
+    font-weight: 400 !important;
 }
 
 .testimonial-card.testimonial-card-clr .testimonial-clientName-Txt {
@@ -1587,7 +1626,7 @@ body.noscroll {
     color: var(--main-color);
     gap: 1px;
     font-size: 18px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 .testimonial-card.testimonial-card-clr .testimonial-clientName-rating {
@@ -1687,6 +1726,8 @@ body.noscroll {
     -webkit-transition: all 0.2s linear;
     -moz-transition: all 0.2s linear;
     transition: all 0.2s linear;
+    box-shadow: #ddf1479e 0px 7px 29px 0px;
+
 }
 
 /* ********************************    Testimonial End      ************************************** */
@@ -1717,6 +1758,7 @@ body.noscroll {
     position: relative;
     font-size: 85px;
     font-weight: 500;
+    letter-spacing: 2px;
     line-height: 1;
     font-family: "DM Sans", sans-serif;
     color: var(--text-color);
@@ -1752,6 +1794,7 @@ body.noscroll {
     position: relative;
     line-height: 1.4;
     font-size: 30px;
+    letter-spacing: 2px;
     font-weight: 600;
     font-family: "Inter", sans-serif;
     text-transform: uppercase;
@@ -1761,6 +1804,7 @@ body.noscroll {
 .footer-contact-outer span a {
     text-decoration: none;
     color: var(--text-color);
+    letter-spacing: 2px;
 }
 
 .footer-contact-outer span a:hover {
@@ -1838,6 +1882,7 @@ body.noscroll {
     transition: all 0.2s ease;
     line-height: 1;
     text-transform: uppercase;
+    letter-spacing: 2px;
     color: var(--para-color);
     text-align: start;
     font-weight: 500;
@@ -1927,7 +1972,7 @@ body.noscroll {
     -webkit-border-radius: 300px;
     -moz-border-radius: 300px;
     border: 2px solid var(--border-color);
-    padding: 34px 32px 34px 101px;
+    padding: 34px 15px 34px 101px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1955,6 +2000,7 @@ body.noscroll {
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     transition: all 0.5s ease;
+    box-shadow: #def147 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 .project-cardmain-txtpart {
@@ -1978,12 +2024,13 @@ body.noscroll {
 }
 
 .project-cardmain-heading {
-    font-size: 40px;
+    font-size: 35px;
     text-transform: uppercase;
     color: var(--text-color);
     font-family: "Inter", sans-serif;
     font-weight: 400;
-    line-height: 1.2;
+    letter-spacing: 2px;
+    line-height: 1.3;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     transition: all 0.5s ease;
@@ -1991,6 +2038,7 @@ body.noscroll {
 
 .project-cardmain-heading sup {
     margin-right: 20px;
+    font-size: 20px;
 }
 
 .project-cardmain-para,
