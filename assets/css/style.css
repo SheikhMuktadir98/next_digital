@@ -910,78 +910,62 @@ body.noscroll {
 
 .hero-rating-area {
     position: absolute;
-    right: 50px;
-    background-color: rgba(255, 255, 255, 0.2);
-    padding: 30px;
-    border-radius: 300px;
-    -webkit-border-radius: 300px;
-    -moz-border-radius: 300px;
-    border: 2px solid var(--main-color);
-    bottom: 300px;
-    max-width: 300px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    z-index: 300;
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-    background-color: rgba(255, 255, 255, 0.15);
-}
-
-.hero-rating-area img {
-    width: 50px;
-    height: 50px;
-    border-radius: 300px;
-    -webkit-border-radius: 300px;
-    -moz-border-radius: 300px;
-    border: 3px solid var(--heading-color);
-    margin-left: -18px;
-    -o-object-fit: contain;
-    object-fit: contain;
-    z-index: 10;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-}
-
-.hero-rating-area img:first-child {
-    margin-left: 0 !important;
-}
-
-.hero-rating-box {
-    width: 50px;
-    height: 50px;
+    right: 20px;
     background-color: var(--main-color);
-    border-radius: 300px;
-    -webkit-border-radius: 300px;
-    -moz-border-radius: 300px;
-    margin-left: -18px;
+    width: 100%;
+    padding: 30px 30px;
+    height: auto;
+    border-radius: 40px 40px 40px 40px;
+    -webkit-border-radius: 40px 40px 40px 40px;
+    -moz-border-radius: 40px 40px 40px 40px;
+    bottom: 20%;
+    max-width: 250px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    border: 3px solid var(--heading-color);
-    -webkit-box-pack: center;
-    flex: none;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    font-family: "Inter", sans-serif;
-    font-size: 16px;
-    color: var(--text-dark);
-    font-weight: 400;
-    z-index: 20;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+    flex-direction: column;
+    /* -webkit-clip-path: polygon(100% 0, 100% 70%, 64% 100%, 0 100%, 0 0);
+    clip-path: polygon(100% 0, 100% 70%, 64% 100%, 0 100%, 0 0); */
+    justify-content: start;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: start;
+    z-index: 300;
+    gap: 30px;
 }
 
 
+
+.hero-rating-txt {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero-divide {
+    width: 100%;
+    border: 1px solid #2e2e2e;
+}
+
+
+.hero-rating-txt span:first-child {
+    font-size: 40px;
+    line-height: 1;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    position: relative;
+    color: var(--text-dark);
+}
+
+.hero-rating-txt span:last-child {
+    font-size: 16px;
+    line-height: 1;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: var(--text-dark);
+    position: relative;
+}
 
 /* ********************************     Hero End      ************************************** */
 /* *********************************************************************************************************************** */
@@ -1225,18 +1209,18 @@ body.noscroll {
     background-color: var(--main-color);
     color: var(--text-dark);
     z-index: 200;
-    -webkit-transform: scale(1.1) rotate(5deg);
-    -ms-transform: scale(1.1) rotate(5deg);
-    transform: scale(1.1) rotate(5deg);
+    -webkit-transform: scale(1.15, 1.15) rotate(5deg);
+    -ms-transform: scale(1.15, 1.15) rotate(5deg);
+    transform: scale(1.15, 1.15) rotate(5deg);
 }
 
 .servicesList li.tab:nth-child(odd).active {
     background-color: var(--main-color);
     color: var(--text-dark);
     z-index: 200;
-    -webkit-transform: scale(1.1) rotate(-5deg);
-    -ms-transform: scale(1.1) rotate(-5deg);
-    transform: scale(1.1) rotate(-5deg);
+    -webkit-transform: scale(1.15, 1.15) rotate(-5deg);
+    -ms-transform: scale(1.15, 1.15) rotate(-5deg);
+    transform: scale(1.15, 1.15) rotate(-5deg);
 }
 
 .servicesList .tab.active .servicesList-count {

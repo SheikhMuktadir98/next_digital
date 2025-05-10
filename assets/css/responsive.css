@@ -104,11 +104,26 @@
     }
 
     .hero-rating-area {
-        bottom: 40%;
+        bottom: 30%;
         padding: 12px;
-        left: 20px;
-        max-width: 200px;
+        left: 0px;
+        gap: 15px;
+        max-width: 130px;
+        border-radius: 20px 20px 20px 20px;
+        -webkit-border-radius: 20px 20px 20px 20px;
+        -moz-border-radius: 20px 0px 20px 20px;
+    }
 
+    .hero-rating-txt {
+        gap: 6px;
+    }
+
+    .hero-rating-txt span:first-child {
+        font-size: 18px;
+    }
+
+    .hero-rating-txt span:last-child {
+        font-size: 12px;
     }
 
     .hero-main-large-image {
@@ -640,30 +655,35 @@
         justify-content: end;
     }
 
-    .hero-rating-area {
-        bottom: 50%;
-        padding: 12px;
-        left: 20px;
-        max-width: 200px;
 
+
+    .hero-rating-area {
+        bottom: 30%;
+        padding: 15px;
+        left: 0px;
+        gap: 15px;
+        max-width: 150px;
+        border-radius: 20px 20px 20px 20px;
+        -webkit-border-radius: 20px 20px 20px 20px;
+        -moz-border-radius: 20px 20px 20px 20px;
+    }
+
+    .hero-rating-txt {
+        gap: 10px;
+    }
+
+    .hero-rating-txt span:first-child {
+        font-size: 20px;
+    }
+
+    .hero-rating-txt span:last-child {
+        font-size: 14px;
     }
 
     .hero-main-large-image {
         max-width: 100%;
     }
 
-    .hero-rating-area img {
-        width: 40px;
-        height: 40px;
-        margin-left: -10px;
-    }
-
-    .hero-rating-box {
-        margin-left: -10px;
-        width: 40px;
-        height: 40px;
-        font-size: 14px;
-    }
 
     .center-btnpart {
         display: flex;
@@ -841,7 +861,7 @@
     }
 
     .team-card-body {
-        top: 50%;
+        top: 60%;
     }
 
     .team-card-body-txt h4 {
@@ -1038,8 +1058,26 @@
     }
 
     .hero-rating-area {
-        bottom: 100px;
-        padding: 20px;
+        bottom: 10%;
+        padding: 20px 20px;
+        right: 0px;
+        gap: 15px;
+        border-radius: 20px 20px 20px 20px;
+        -webkit-border-radius: 20px 20px 20px 20px;
+        -moz-border-radius: 20px 20px 20px 20px;
+        max-width: 180px;
+    }
+
+    .hero-rating-txt {
+        gap: 10px;
+    }
+
+    .hero-rating-txt span:first-child {
+        font-size: 20px;
+    }
+
+    .hero-rating-txt span:last-child {
+        font-size: 14px;
     }
 
     .hero-subTxt {
@@ -1220,7 +1258,26 @@
     }
 
     .hero-rating-area {
-        bottom: 140px;
+        bottom: 20%;
+        padding: 20px 20px;
+        right: 0px;
+        gap: 15px;
+        max-width: 180px;
+        border-radius: 20px 20px 20px 20px;
+        -webkit-border-radius: 20px 20px 20px 20px;
+        -moz-border-radius: 20px 20px 20px 20px;
+    }
+
+    .hero-rating-txt {
+        gap: 10px;
+    }
+
+    .hero-rating-txt span:first-child {
+        font-size: 25px;
+    }
+
+    .hero-rating-txt span:last-child {
+        font-size: 15px;
     }
 
     .hero-subTxt {
@@ -1328,7 +1385,7 @@
     }
 
     .hero-rating-area {
-        bottom: 180px;
+        bottom: 15%;
     }
 
     .hero-subTxt {
