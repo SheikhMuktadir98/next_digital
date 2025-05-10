@@ -233,7 +233,7 @@ button:focus {
     text-align: center;
     line-height: 0;
     max-width: 240px;
-    width: 100%;
+    width: auto;
     padding: 15px 70px 15px 30px;
     border-radius: 300px;
     border: none;
