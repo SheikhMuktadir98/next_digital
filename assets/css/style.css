@@ -25,7 +25,7 @@ body {
 }
 
 .container {
-    max-width: 1300px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -156,6 +156,8 @@ button:focus {
     -moz-transition: all 0.2s linear;
     -o-transition: all 0.2s linear;
     transition: all 0.2s linear;
+    box-shadow: #ddf1479e 0px 7px 29px 0px;
+
 }
 
 .mainbtn-cicleBox:focus {
@@ -366,10 +368,10 @@ button:focus {
 }
 
 .very-large-heading {
-    font-size: 240px;
+    font-size: 250px;
     color: var(--text-color);
     font-family: "DM Sans", sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     position: relative;
     line-height: 1;
     color: var(--text-color);
@@ -377,7 +379,7 @@ button:focus {
 }
 
 .main-headingTxt {
-    font-size: 70px;
+    font-size: 75px;
     color: var(--text-color);
     font-family: "DM Sans", sans-serif;
     font-weight: 500;
@@ -830,7 +832,7 @@ body.noscroll {
 
 .hero-LargeTxt {
     position: relative;
-    font-size: 330px;
+    font-size: 350px;
     text-transform: uppercase;
     font-family: "DM Sans", sans-serif;
     font-weight: 600;
@@ -850,7 +852,7 @@ body.noscroll {
     -ms-transform: translateY(-40%);
     transform: translateY(-40%);
     z-index: 300;
-    max-width: 50%;
+    max-width: 45%;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -869,8 +871,10 @@ body.noscroll {
 .hero-subTxt {
     position: relative;
     font-weight: 400;
-    font-size: 60px;
-    line-height: 1;
+    font-size: 65px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.1;
     color: var(--hero-subheading);
     font-family: "Inter", sans-serif;
 }
@@ -890,7 +894,7 @@ body.noscroll {
 }
 
 .hero-count span:first-child {
-    font-size: 85px;
+    font-size: 90px;
     line-height: 1;
     font-family: "Inter", sans-serif;
     font-weight: 400;
@@ -910,41 +914,36 @@ body.noscroll {
 
 .hero-rating-area {
     position: absolute;
-    right: 20px;
+    right: 50px;
     background-color: var(--main-color);
+    box-shadow: var(--main-color) 0px 7px 29px 0px;
     width: 100%;
     padding: 30px 30px;
     height: auto;
     border-radius: 40px 40px 40px 40px;
     -webkit-border-radius: 40px 40px 40px 40px;
     -moz-border-radius: 40px 40px 40px 40px;
-    bottom: 20%;
+    bottom: 25%;
     max-width: 250px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     flex-direction: column;
-    /* -webkit-clip-path: polygon(100% 0, 100% 70%, 64% 100%, 0 100%, 0 0);
-    clip-path: polygon(100% 0, 100% 70%, 64% 100%, 0 100%, 0 0); */
-    justify-content: start;
-    -webkit-box-align: start;
-    -ms-flex-align: start;
-    align-items: start;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
     z-index: 300;
-    gap: 30px;
+    gap: 20px;
 }
-
 
 
 .hero-rating-txt {
     display: flex;
     flex-direction: column;
     gap: 10px;
-}
-
-.hero-divide {
     width: 100%;
-    border: 1px solid #2e2e2e;
+    align-items: start;
 }
 
 
@@ -952,7 +951,7 @@ body.noscroll {
     font-size: 40px;
     line-height: 1;
     font-family: "Inter", sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     position: relative;
     color: var(--text-dark);
 }
@@ -965,6 +964,38 @@ body.noscroll {
     letter-spacing: 0.5px;
     color: var(--text-dark);
     position: relative;
+    letter-spacing: 0.5px;
+}
+
+.hero-rating-img {
+    position: relative;
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.hero-rating-img img {
+    width: 40px;
+    border-radius: 300px;
+    height: 40px;
+    position: relative;
+    border: 3px solid #fff;
+    z-index: 10;
+    margin-left: -15px;
+    filter: grayscale(100%);
+}
+
+.hero-rating-img img:nth-child(1) {
+    margin-left: 0;
+}
+
+.hero-rating-img img:nth-child(3) {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    z-index: 20;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 /* ********************************     Hero End      ************************************** */
@@ -1030,7 +1061,7 @@ body.noscroll {
 
 .testslider-Txt {
     position: relative;
-    font-size: 85px;
+    font-size: 90px;
     text-align: center;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1209,18 +1240,22 @@ body.noscroll {
     background-color: var(--main-color);
     color: var(--text-dark);
     z-index: 200;
+    border: 2px solid var(--main-color);
     -webkit-transform: scale(1.15, 1.15) rotate(5deg);
     -ms-transform: scale(1.15, 1.15) rotate(5deg);
     transform: scale(1.15, 1.15) rotate(5deg);
+    box-shadow: var(--main-color) 0px 7px 29px 0px;
 }
 
 .servicesList li.tab:nth-child(odd).active {
     background-color: var(--main-color);
     color: var(--text-dark);
     z-index: 200;
+    border: 2px solid var(--main-color);
     -webkit-transform: scale(1.15, 1.15) rotate(-5deg);
     -ms-transform: scale(1.15, 1.15) rotate(-5deg);
     transform: scale(1.15, 1.15) rotate(-5deg);
+    box-shadow: var(--main-color) 0px 7px 29px 0px;
 }
 
 .servicesList .tab.active .servicesList-count {
@@ -1449,6 +1484,7 @@ body.noscroll {
     transform: translate(-50%, -40%) scale(1, 1) !important;
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
+    box-shadow: var(--main-color) 0px 7px 29px 0px;
     transition: all 0.3s ease-out;
 }
 
@@ -1751,7 +1787,7 @@ body.noscroll {
 
 .footer-largeheading {
     position: relative;
-    font-size: 85px;
+    font-size: 90px;
     font-weight: 500;
     letter-spacing: 2px;
     line-height: 1;
@@ -2019,7 +2055,7 @@ body.noscroll {
 }
 
 .project-cardmain-heading {
-    font-size: 35px;
+    font-size: 40px;
     text-transform: uppercase;
     color: var(--text-color);
     font-family: "Inter", sans-serif;

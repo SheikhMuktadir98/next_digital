@@ -1,6 +1,16 @@
+@media (min-width:320px) and (max-width:379.9px) {
+    .hero-LargeTxt {
+        font-size: 75px !important;
+    }
+
+    .very-large-heading {
+        font-size: 60px !important;
+    }
+}
+
 @media (max-width:575.9px) {
     .container {
-        max-width: 100%;
+        max-width: 500px;
         margin: 0 auto;
     }
 
@@ -60,7 +70,7 @@
 
 
     .hero-LargeTxt {
-        font-size: 70px;
+        font-size: 85px;
         letter-spacing: 2px;
     }
 
@@ -106,9 +116,9 @@
     .hero-rating-area {
         bottom: 30%;
         padding: 12px;
-        left: 0px;
+        right: 0px;
         gap: 15px;
-        max-width: 130px;
+        max-width: 150px;
         border-radius: 20px 20px 20px 20px;
         -webkit-border-radius: 20px 20px 20px 20px;
         -moz-border-radius: 20px 0px 20px 20px;
@@ -125,6 +135,13 @@
     .hero-rating-txt span:last-child {
         font-size: 12px;
     }
+
+
+    .hero-rating-img {
+        display: none;
+    }
+
+
 
     .hero-main-large-image {
         max-width: 100%;
@@ -247,7 +264,7 @@
     }
 
     .very-large-heading {
-        font-size: 60px;
+        font-size: 70px;
         letter-spacing: 2px;
     }
 
@@ -520,7 +537,7 @@
 
 @media (min-width:576px) and (max-width:767.9px) {
     .container {
-        max-width: 600px;
+        max-width: 700px;
         margin: 0 auto;
     }
 
@@ -612,7 +629,7 @@
 
 
     .hero-LargeTxt {
-        font-size: 100px;
+        font-size: 120px;
         letter-spacing: 2px;
     }
 
@@ -636,7 +653,7 @@
 
 
     .hero-subTxt {
-        font-size: 40px;
+        font-size: 45px;
         margin-bottom: 10px;
     }
 
@@ -658,14 +675,14 @@
 
 
     .hero-rating-area {
-        bottom: 30%;
-        padding: 15px;
-        left: 0px;
+        bottom: 35%;
+        padding: 12px;
+        right: 0px;
         gap: 15px;
-        max-width: 150px;
+        max-width: 200px;
         border-radius: 20px 20px 20px 20px;
         -webkit-border-radius: 20px 20px 20px 20px;
-        -moz-border-radius: 20px 20px 20px 20px;
+        -moz-border-radius: 20px 0px 20px 20px;
     }
 
     .hero-rating-txt {
@@ -679,6 +696,13 @@
     .hero-rating-txt span:last-child {
         font-size: 14px;
     }
+
+
+    .hero-rating-img {
+        display: none;
+    }
+
+
 
     .hero-main-large-image {
         max-width: 100%;
@@ -753,7 +777,7 @@
     }
 
     .main-headingTxt {
-        font-size: 45px;
+        font-size: 50px;
     }
 
     p {
@@ -785,7 +809,7 @@
     }
 
     .very-large-heading {
-        font-size: 80px;
+        font-size: 100px;
         letter-spacing: 2px;
     }
 
@@ -1016,7 +1040,7 @@
 @media (min-width:768px) and (max-width:991.9px) {
 
     .container {
-        max-width: 750px;
+        max-width: 800px;
         margin: 0 auto;
     }
 
@@ -1054,18 +1078,18 @@
 
 
     .hero-LargeTxt {
-        font-size: 190px;
+        font-size: 200px;
     }
 
     .hero-rating-area {
-        bottom: 10%;
+        bottom: 30%;
         padding: 20px 20px;
         right: 0px;
         gap: 15px;
         border-radius: 20px 20px 20px 20px;
         -webkit-border-radius: 20px 20px 20px 20px;
         -moz-border-radius: 20px 20px 20px 20px;
-        max-width: 180px;
+        max-width: 200px;
     }
 
     .hero-rating-txt {
@@ -1078,6 +1102,10 @@
 
     .hero-rating-txt span:last-child {
         font-size: 14px;
+    }
+
+    .hero-rating-img {
+        display: none;
     }
 
     .hero-subTxt {
@@ -1227,7 +1255,7 @@
     }
 
     .container {
-        max-width: 950px;
+        max-width: 1000px;
         margin: 0 auto;
     }
 
@@ -1246,7 +1274,7 @@
     }
 
     .hero-LargeTxt {
-        font-size: 240px;
+        font-size: 250px;
     }
 
     .hero-section::before {
@@ -1258,11 +1286,11 @@
     }
 
     .hero-rating-area {
-        bottom: 20%;
+        bottom: 18%;
         padding: 20px 20px;
         right: 0px;
         gap: 15px;
-        max-width: 180px;
+        max-width: 220px;
         border-radius: 20px 20px 20px 20px;
         -webkit-border-radius: 20px 20px 20px 20px;
         -moz-border-radius: 20px 20px 20px 20px;
@@ -1279,6 +1307,8 @@
     .hero-rating-txt span:last-child {
         font-size: 15px;
     }
+
+
 
     .hero-subTxt {
         font-size: 45px;
@@ -1349,7 +1379,7 @@
 
 
     .container {
-        max-width: 1100px;
+        max-width: 1200px;
         margin: 0 auto;
     }
 
@@ -1373,7 +1403,7 @@
     }
 
     .hero-LargeTxt {
-        font-size: 280px;
+        font-size: 300px;
     }
 
     .hero-section::before {
@@ -1441,6 +1471,10 @@
 
     .footer-section {
         border-radius: 130px 130px 0 0;
+    }
+
+    .hero-rating-area {
+        bottom: 20%;
     }
 
 }
