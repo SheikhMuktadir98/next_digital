@@ -1372,13 +1372,7 @@ body.noscroll {
     transform: scale(0.9, 0.9);
 }
 
-.team-card:hover .team-card-headerImg {
-    -webkit-transform: scale(1.05, 1.05);
-    transform: scale(1.05, 1.05);
-    -webkit-transition: all 0.2s ease-in;
-    -moz-transition: all 0.2s ease-in;
-    transition: all 0.2s ease-in;
-}
+
 
 .team-card-body {
     position: relative;
