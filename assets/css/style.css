@@ -1155,19 +1155,28 @@ body.noscroll {
     -webkit-transform: rotate(5deg);
     -ms-transform: rotate(5deg);
     transform: rotate(5deg);
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
 }
 
 .servicesList li:nth-child(odd) {
     -webkit-transform: rotate(-5deg);
     -ms-transform: rotate(-5deg);
     transform: rotate(-5deg);
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
 }
+
 
 .servicesList li {
     border: 2px solid var(--border-color);
     padding: 25px 30px;
     color: var(--text-color);
-    border-radius: 300px;
+    border-radius: 300px !important;
     font-size: 30px;
     position: relative;
     font-family: "Inter", sans-serif;
@@ -1175,6 +1184,7 @@ body.noscroll {
     margin-bottom: 30px;
     display: -webkit-box;
     display: -ms-flexbox;
+    transform-origin: center;
     letter-spacing: 1px;
     display: flex;
     background-color: rgba(255, 255, 255, 6%);
@@ -1241,10 +1251,15 @@ body.noscroll {
     color: var(--text-dark);
     z-index: 200;
     border: 2px solid var(--main-color);
-    -webkit-transform: scale(1.10, 1.10) rotate(5deg);
-    -ms-transform: scale(1.10, 1.10) rotate(5deg);
-    transform: scale(1.10, 1.10) rotate(5deg);
+    -webkit-transform: scale(1.1) rotate(5deg);
+    -ms-transform: scale(1.1) rotate(5deg);
+    transform: scale(1.1) rotate(5deg);
     box-shadow: var(--main-color) 0px 7px 29px 0px;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    will-change: transform, background-color;
 }
 
 .servicesList li.tab:nth-child(odd).active {
@@ -1252,10 +1267,15 @@ body.noscroll {
     color: var(--text-dark);
     z-index: 200;
     border: 2px solid var(--main-color);
-    -webkit-transform: scale(1.10, 1.10) rotate(-5deg);
-    -ms-transform: scale(1.10, 1.10) rotate(-5deg);
-    transform: scale(1.10, 1.10) rotate(-5deg);
+    -webkit-transform: scale(1.1) rotate(-5deg);
+    -ms-transform: scale(1.1) rotate(-5deg);
+    transform: scale(1.1) rotate(-5deg);
     box-shadow: var(--main-color) 0px 7px 29px 0px;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    will-change: transform, background-color;
 }
 
 .servicesList .tab.active .servicesList-count {
