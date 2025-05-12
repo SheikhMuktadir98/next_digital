@@ -1,4 +1,4 @@
-@media (min-width:320px) and (max-width:379.9px) {
+@media (min-width:320px) and (max-width:379.98px) {
     .hero-LargeTxt {
         font-size: 75px !important;
     }
@@ -8,7 +8,7 @@
     }
 }
 
-@media (max-width:575.9px) {
+@media (max-width:575.98px) {
     .container {
         max-width: 500px;
         margin: 0 auto;
@@ -531,7 +531,7 @@
 }
 
 
-@media (min-width:576px) and (max-width:767.9px) {
+@media (min-width:576px) and (max-width:767.98px) {
     .container {
         max-width: 700px;
         margin: 0 auto;
@@ -1032,7 +1032,7 @@
 }
 
 
-@media (min-width:768px) and (max-width:991.9px) {
+@media (min-width:768px) and (max-width:991.98px) {
 
     .container {
         max-width: 800px;
@@ -1242,7 +1242,7 @@
 }
 
 
-@media (min-width:992px) and (max-width:1199.9px) {
+@media (min-width:992px) and (max-width:1199.98px) {
     .navigation .nav-link {
         font-size: 14px;
     }
@@ -1368,7 +1368,7 @@
 
 
 
-@media (min-width:1200px) and (max-width:1399.9px) {
+@media (min-width:1200px) and (max-width:1399.98px) {
 
 
     .container {
