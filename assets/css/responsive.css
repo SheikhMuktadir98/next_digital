@@ -315,10 +315,6 @@
         transform: scale(1, 1) rotate(-0deg);
     }
 
-    .servicepaddingRight .service-lgImg {
-        position: relative;
-        top: 0;
-    }
 
     .servicepaddingLeft .service-lgImg {
         display: none;
@@ -862,7 +858,6 @@
 
     .servicepaddingRight .service-lgImg {
         position: relative;
-        top: 0;
     }
 
     .servicepaddingLeft .service-lgImg {
@@ -1173,12 +1168,10 @@
 
     .servicepaddingRight .service-lgImg {
         position: relative;
-        top: 0;
     }
 
     .servicepaddingLeft .service-lgImg {
         position: relative;
-        top: 20px;
     }
 
     .service-lgImg {
