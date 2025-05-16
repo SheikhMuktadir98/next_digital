@@ -22,11 +22,11 @@
     }
 
     .servicesList li.tab:nth-child(even).active {
-        box-shadow: transparent;
+        box-shadow: transparent 0px 7px 29px 0px;
     }
 
     .servicesList li.tab:nth-child(odd).active {
-        box-shadow: transparent;
+        box-shadow: transparent 0px 7px 29px 0px;
     }
 
     .team-card-headerImg {
@@ -552,11 +552,11 @@
 
 
     .servicesList li.tab:nth-child(even).active {
-        box-shadow: transparent;
+        box-shadow: transparent 0px 7px 29px 0px;
     }
 
     .servicesList li.tab:nth-child(odd).active {
-        box-shadow: transparent;
+        box-shadow: transparent 0px 7px 29px 0px;
     }
 
 
